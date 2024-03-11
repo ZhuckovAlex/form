@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/null.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Title</title>
+</head>
+<body>
+<header class="header">
+    <div class="header__container container">
+        <form class="payform-tinkoff" name="payform-tinkoff" onsubmit="pay(this); return false;">
+            <input class="payform-tinkoff-row" type="hidden" name="terminalkey" value="1707809281167DEMO">
+            <input class="payform-tinkoff-row" type="hidden" name="frame" value="false">
+            <input class="payform-tinkoff-row" type="hidden" name="language" value="ru">
+            <label class="payform-tinkoff-label" for="inn">Оплата подписки для ИНН:</label>
+            <input class="payform-tinkoff-row-disable" id="inn" type="text" disabled required>
+            <label class="payform-tinkoff-label" for="expdate">Подписка будет действовать до:</label>
+            <input class="payform-tinkoff-row-disable" id="expdate" type="text" disabled required>
+            <label class="payform-tinkoff-label" for="cost">Стоимость подписки:</label>
+            <input class="payform-tinkoff-row-disable row-space " id="cost" type="text" placeholder="Сумма заказа" name="amount"
+                   value="10000" disabled required>
+            <input class="payform-tinkoff-row" type="hidden" placeholder="Номер заказа" name="order">
+            <input class="payform-tinkoff-row" type="hidden" type="text" placeholder="Описание заказа"
+                   name="description" value="Оплата подписки">
+            <input class="payform-tinkoff-row row-space" type="email" placeholder="E-mail для чека" name="email">
+            <input class="payform-tinkoff-row row-space" type="tel" placeholder="Контактный телефон" name="phone">
+            <input class="payform-tinkoff-row" type="hidden" name="DATA" id="Data" value="">
+            <input class="payform-tinkoff-btn" type="submit" value="Оплатить">
+        </form>
+    </div>
+</header>
+</body>
+</html>

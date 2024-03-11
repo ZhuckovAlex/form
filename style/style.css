@@ -1,0 +1,134 @@
+.container {
+    margin: 0 auto;
+}
+.header__container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/form_phone.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-block: 50px;
+    height: 100vh;
+}
+
+.payform-tinkoff {
+    z-index: 3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 450px;
+    background: #FFF;
+    border-radius: 10px;
+    padding-inline: 20px;
+    padding-block: 20px;
+}
+.payform-tinkoff-label {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.payform-tinkoff-row {
+    margin: 2px;
+    border-radius: 4px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    padding: 10px;
+    border: 1px solid #d0d0d0;
+    outline: none;
+    background-color: #ffffff;
+    font-size: 18px;
+}
+.payform-tinkoff-row:focus {
+    background-color: #ffffff;
+    border: 1px solid #7b3aeb;
+    border-radius: 4px;
+}
+.payform-tinkoff-row-disable {
+    margin: 2px;
+    border-radius: 4px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    padding: 10px;
+    border: 1px solid #d0d0d0;
+    outline: none;
+    background-color: #e5e5e5;
+    font-size: 18px;
+}
+.payform-tinkoff-row-disable:focus {
+    background-color: #e5e5e5;
+    border: 1px solid #7b3aeb;
+    border-radius: 4px;
+}
+.payform-tinkoff-btn {
+    margin: 2px;
+    border-radius: 4px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    padding: 10px;
+    font-size: 24px;
+    background: #7b3aeb;
+    color: #EEE;
+}
+.row-space {
+    margin-bottom: 10px;
+}
+.payform-tinkoff-btn:hover {
+    background: #6731c0;
+}
+@media (max-width: 500px) {
+    .payform-tinkoff {
+        max-width: 90%;
+    }
+}
+@media (max-width: 425px) {
+    .payform-tinkoff-label {
+        font-size: 14px;
+    }
+    .payform-tinkoff-row {
+        font-size: 14px;
+    }
+    .payform-tinkoff-btn {
+        font-size: 18px;
+    }
+}
+/* Общие стили для мобильных устройств */
+@media (max-width: 500px) {
+    .payform-tinkoff {
+        max-width: 90%;
+    }
+}
+
+/* Стили для iPhone 6/7/8 */
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+    /* Стили для iPhone 6/7/8 */
+}
+
+/* Стили для iPhone X/XS/11 Pro */
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    /* Стили для iPhone X/XS/11 Pro */
+}
+
+/* Стили для iPhone XR/11 */
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+    /* Стили для iPhone XR/11 */
+}
+
+/* Стили для iPhone 12/13 */
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+    /* Стили для iPhone 12/13 */
+}
